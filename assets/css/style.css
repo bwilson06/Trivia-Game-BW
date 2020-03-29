@@ -19,3 +19,16 @@
     align-items: center;
     letter-spacing: 4px;
 }
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 80%;
+    height: 600px;
+    background-color: rgb(133, 127, 127);
+    border-width: 12px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: white;
+}
