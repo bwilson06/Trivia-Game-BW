@@ -57,3 +57,13 @@
     background-color: black;
     color: white;
 }
+
+#timer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(29, 28, 28);
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: bolder;
+}

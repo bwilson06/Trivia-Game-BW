@@ -1,10 +1,22 @@
 $(document).ready(function(){
-
-    let startButton = $("#start-button")
+    var counter = 16
+    var timer = $("#timer")
+    var startButton = $("#start-button")
 
     startButton.on("click", function(){
+        setInterval(timeIt, 1000);
+        function timeIt(){
+            counter--;
+            timer.text(`Timer: ${counter} seconds remaining`)
+        }
         alert('YOOOO')
-        $(".container").html("")
-    });
+        $(".trivia-header").html("")
+        $("#start-button").remove()
+        
+        
+        });
 
+    
+
+    
 });
