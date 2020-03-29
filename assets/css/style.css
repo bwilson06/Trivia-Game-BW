@@ -29,7 +29,7 @@
     margin: 0 auto;
     margin-top: 40px;
     width: 80%;
-    height: 600px;
+    height: auto;
     background-color: rgb(133, 127, 127);
     border-width: 12px;
     border-radius: 6px;
@@ -66,4 +66,29 @@
     letter-spacing: 4px;
     font-size: 40px;
     font-weight: bolder;
+}
+
+#questions{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    color: rgb(29, 28, 28);
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.yo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: black;
+    font-size: 60px;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+#buttons{
+    margin-top: 40px;
 }
