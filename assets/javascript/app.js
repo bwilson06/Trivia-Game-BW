@@ -44,11 +44,13 @@ $(document).ready(function(){
                 timer.text("RESULTS")
                 resultPage()
             }
+            if (total < 5){
             if (counter <= 0){
                 total++
                 nextQuestion ++
                 unanswered ++
                 reset()
+                }
             }
         }
         $(".trivia-header").html("")
